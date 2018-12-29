@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_timer_current"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_timer_stop"
+        android:text="stop"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_timer_reset"
+        android:text="reset"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="restart"
+        android:id="@+id/btn_timer_restart"
+        android:layout_height="40dp" />
+
+</LinearLayout>
